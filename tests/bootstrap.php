@@ -3,4 +3,4 @@
 ini_set('display_errors', true);
 error_reporting(E_ALL);
 
-$autoloader = require __DIR__ . '/../vendor/autoload.php';
+$autoloader = require __DIR__.'/../vendor/autoload.php';

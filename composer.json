@@ -1,6 +1,6 @@
 {
-    "name": "mjacobus/library-skeleton",
-    "description": "Skeleton for libraries",
+    "name": "bro/code",
+    "description": "The PHP Bro Code standard",
     "license": "MIT",
     "authors": [
         {
@@ -9,15 +9,19 @@
         }
     ],
     "require": {
-        "php" : ">=5.4"
+        "php" : ">=5.4",
+        "friendsofphp/php-cs-fixer": "^1.11"
     },
+    "bin": [
+        "bro-cs-fix"
+    ],
     "require-dev": {
         "satooshi/php-coveralls": "~1.0.0",
         "phpunit/phpunit": "~4.8.21"
     },
     "autoload": {
         "psr-4": {
-            "{vendor_namespace}\\": "src/"
+            "Bro\\Code\\": "src/"
         }
     },
     "scripts": {

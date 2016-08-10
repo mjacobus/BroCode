@@ -1,24 +1,24 @@
-{library_name}
+Bro
 -----------------
 
-{package_description}
+The PHP Bro Code standard
 
 Code information:
 
-[![Build Status](https://travis-ci.org/{github_repo}.png?branch=master)](https://travis-ci.org/{github_repo})
-[![Coverage Status](https://coveralls.io/repos/{github_repo}/badge.png?branch=master)](https://coveralls.io/r/{github_repo}?branch=master)
-[![Code Coverage Scrutinizer](https://scrutinizer-ci.com/g/{github_repo}/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/{github_repo}/?branch=master)
-[![Code Climate](https://codeclimate.com/github/{github_repo}.png)](https://codeclimate.com/github/{github_repo})
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/{github_repo}/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/{github_repo}/?branch=master)
-[![StyleCI](https://styleci.io/repos/{style_ci_id}/shield)](https://styleci.io/repos/{style_ci_id})
+[![Build Status](https://travis-ci.org/mjacobus/bro-php.png?branch=master)](https://travis-ci.org/mjacobus/bro-php)
+[![Coverage Status](https://coveralls.io/repos/mjacobus/bro-php/badge.png?branch=master)](https://coveralls.io/r/mjacobus/bro-php?branch=master)
+[![Code Coverage Scrutinizer](https://scrutinizer-ci.com/g/mjacobus/bro-php/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/mjacobus/bro-php/?branch=master)
+[![Code Climate](https://codeclimate.com/github/mjacobus/bro-php.png)](https://codeclimate.com/github/mjacobus/bro-php)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mjacobus/bro-php/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mjacobus/bro-php/?branch=master)
+[![StyleCI](https://styleci.io/repos/ChangeMe/shield)](https://styleci.io/repos/ChangeMe)
 
 Package information:
 
-[![Latest Stable Version](https://poser.pugx.org/{package_name}/v/stable.svg)](https://packagist.org/packages/{package_name})
-[![Total Downloads](https://poser.pugx.org/{package_name}/downloads.svg)](https://packagist.org/packages/{package_name})
-[![Latest Unstable Version](https://poser.pugx.org/{package_name}/v/unstable.svg)](https://packagist.org/packages/{package_name})
-[![License](https://poser.pugx.org/{package_name}/license.svg)](https://packagist.org/packages/{package_name})
-[![Dependency Status](https://gemnasium.com/{package_name}.png)](https://gemnasium.com/{package_name})
+[![Latest Stable Version](https://poser.pugx.org/bro/code/v/stable.svg)](https://packagist.org/packages/bro/code)
+[![Total Downloads](https://poser.pugx.org/bro/code/downloads.svg)](https://packagist.org/packages/bro/code)
+[![Latest Unstable Version](https://poser.pugx.org/bro/code/v/unstable.svg)](https://packagist.org/packages/bro/code)
+[![License](https://poser.pugx.org/bro/code/license.svg)](https://packagist.org/packages/bro/code)
+[![Dependency Status](https://gemnasium.com/bro/code.png)](https://gemnasium.com/bro/code)
 
 
 ## Usage
@@ -31,12 +31,12 @@ Package information:
 ## Installing
 
 ```bash
-composer require {package_name}
+composer require bro/code
 ```
 
 ## Issues/Features proposals
 
-[Here](https://github.com/{github_repo}/issues) is the issue tracker.
+[Here](https://github.com/mjacobus/bro-php/issues) is the issue tracker.
 
 ## Lincense
 
@@ -44,4 +44,4 @@ composer require {package_name}
 
 ## Authors
 
-- [{author_name}](https://github.com/{github_username})
+- [Marcelo Jacobus](https://github.com/mjacobus)
