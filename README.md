@@ -1,7 +1,7 @@
 Bro Code
 -----------------
 
-The PHP Bro Code Standard prset for [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/master) specially made for Bros
+The PHP Bro Code Standard preset for [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/master) specially made for Bros
 
 
 ## Usage
