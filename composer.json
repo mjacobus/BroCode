@@ -13,7 +13,7 @@
         "friendsofphp/php-cs-fixer": "^1.11"
     },
     "bin": [
-        "bro-cs-fix"
+        "bro-code"
     ],
     "require-dev": {
         "satooshi/php-coveralls": "~1.0.0",

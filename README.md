@@ -1,7 +1,29 @@
-Bro
+Bro Code
 -----------------
 
-The PHP Bro Code standard
+The PHP Bro Code Standard prset for [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/master) specially made for Bros
+
+
+## Usage
+
+### Bro Code Standard
+
+It behaves exactly as the original (hopefully) but it as a personal favorite preset (much like in [Style CI](https://styleci.readme.io/docs/presets))
+
+```
+./vendor/bin/bro-code fix {path}
+```
+
+## Installing
+
+```bash
+composer require --dev bro/code
+```
+
+## Issues/Features proposals
+
+[Here](https://github.com/mjacobus/bro-php/issues) is the issue tracker.
+
 
 Code information:
 
@@ -20,23 +42,6 @@ Package information:
 [![License](https://poser.pugx.org/bro/code/license.svg)](https://packagist.org/packages/bro/code)
 [![Dependency Status](https://gemnasium.com/bro/code.png)](https://gemnasium.com/bro/code)
 
-
-## Usage
-
-
-```php
-// some code example?
-```
-
-## Installing
-
-```bash
-composer require bro/code
-```
-
-## Issues/Features proposals
-
-[Here](https://github.com/mjacobus/bro-php/issues) is the issue tracker.
 
 ## Lincense
 

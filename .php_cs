@@ -1,9 +1,5 @@
 <?php
 
-$finder = Symfony\CS\Finder\DefaultFinder::create()
-->exclude('somedir')
-->in(__DIR__);
-
 $psr2 = [
     'blank_line_after_namespace',
     'braces',
@@ -129,15 +125,12 @@ $styleCiRecommended = [
     'whitespace_after_comma_in_array',
 ];
 
-$config = [];
-$config = array_merge($config, $psr2);
-$config = array_merge($config, $styleCiRecommended);
+$fixers = [];
+$fixers = array_merge($fixers, $psr2);
+$fixers = array_merge($fixers, $styleCiRecommended);
+
+$finder = Symfony\CS\Finder\DefaultFinder::create();
 
 return Symfony\CS\Config\Config::create()
-    ->fixers(
-        array_merge(
-            [],
-            $psr2
-        )
-    )
+    ->fixers($fixers)
     ->finder($finder);
