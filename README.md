@@ -3,6 +3,7 @@ Bro Code
 
 The PHP Bro Code Standard preset for [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/master) specially made for Bros
 
+![Bro High Five](https://github.com/mjacobus/bro-code/blob/master/img/bro-high-five.jpg)
 
 ## Usage
 
