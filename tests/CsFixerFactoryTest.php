@@ -32,6 +32,6 @@ class CsFixerFactoryTest extends PHPUnit_Framework_TestCase
             'preset'      => 'bro',
         ]);
 
-        $this->assertInstanceOf(Application::class, $product);
+        $this->assertInstanceOf('Symfony\CS\Console\Application', $product);
     }
 }
