@@ -3,7 +3,7 @@
 $fixers = [
     // [PSR-0] Classes must be in a path that matches their namespace, be at least
     // one namespace deep, and the class name should match the file name.
-    'psr0'  => true,
+    'psr0' => true,
 
     // [PSR-1] PHP code MUST use only UTF-8 without BOM (remove BOM).
     'encoding' => true,
@@ -246,7 +246,7 @@ $fixers = [
     'trim_array_spaces' => true,
 
     // [symfony] Unalign double arrow symbols.
-    'unalign_double_arrow' => false,
+    'unalign_double_arrow' => true,
 
     // [symfony] Unalign equals symbols.
     'unalign_equals' => true,
@@ -346,6 +346,8 @@ $enabledFixers = [];
 foreach ($fixers as $fixer => $enabled) {
     if ($enabled) {
         $enabledFixers[] = $fixer;
+    } else {
+        $enabledFixers[] = "-$fixer";
     }
 }
 
