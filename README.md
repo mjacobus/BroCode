@@ -20,7 +20,7 @@ Package information:
 [![Total Downloads](https://poser.pugx.org/bro/code/downloads.svg)](https://packagist.org/packages/bro/code)
 [![Latest Unstable Version](https://poser.pugx.org/bro/code/v/unstable.svg)](https://packagist.org/packages/bro/code)
 [![License](https://poser.pugx.org/bro/code/license.svg)](https://packagist.org/packages/bro/code)
-[![Dependency Status](https://gemnasium.com/bro/code.png)](https://gemnasium.com/bro/code)
+[![Dependency Status](https://gemnasium.com/mjacobus/bro-code.png)](https://gemnasium.com/mjacobus/bro-code)
 
 ## Usage
 
