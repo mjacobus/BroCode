@@ -29,26 +29,19 @@ set_error_handler(function ($severity, $message, $file, $line) {
 });
 
 // installed via composer?
-if (file_exists($a = __DIR__.'/../../autoload.php')) {
-    $broPath = __DIR__.'/../../bro/code';
+if (file_exists($a = __DIR__.'/../../../autoload.php')) {
     require_once $a;
 } else {
-    $broPath = __DIR__;
-    require_once __DIR__.'/vendor/autoload.php';
+    require_once __DIR__.'/../vendor/autoload.php';
 }
 
-use Symfony\CS\Console\Application;
+use Bro\Code\CsFixerFactory;
 
-$application = new Application();
+$factory = new CsFixerFactory();
 
-$broConfigPath = $broPath . '/.php_cs';
+$csFixer = $factory->create([
+    'binFilePath' => __FILE__,
+    'preset'      => 'bro',
+]);
 
-if (file_exists($broConfigPath)) {
-    $fixCommand = $application->find('fix');
-    /* @var Symfony\Component\Console\Input\InputOption $configFile */
-    $definition = $fixCommand->getDefinition();
-    $options = $definition->getOptions();
-    $options['config-file']->setDefault($broConfigPath);
-}
-
-$application->run();
+$csFixer->run();
