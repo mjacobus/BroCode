@@ -7,7 +7,7 @@ The PHP Bro Code Standard preset for [PHP CS Fixer](https://github.com/FriendsOf
 
 Code information:
 
-[![Build Status](https://travis-ci.org/mjacobus/bro-code.png?branch=master)](https://travis-ci.org/mjacobus/bro-code)
+[![Build Status](https://travis-ci.org/mjacobus/bro-code.svg?branch=master)](https://travis-ci.org/mjacobus/bro-code)
 [![Coverage Status](https://coveralls.io/repos/mjacobus/bro-code/badge.png?branch=master)](https://coveralls.io/r/mjacobus/bro-code?branch=master)
 [![Code Coverage Scrutinizer](https://scrutinizer-ci.com/g/mjacobus/bro-code/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/mjacobus/bro-code/?branch=master)
 [![Code Climate](https://codeclimate.com/github/mjacobus/bro-code.png)](https://codeclimate.com/github/mjacobus/bro-code)
