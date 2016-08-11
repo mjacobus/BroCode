@@ -2,8 +2,8 @@
 
 namespace Bro\Code;
 
-use Symfony\CS\Console\Application;
 use Symfony\Component\Console\Input\InputOption;
+use Symfony\CS\Console\Application;
 
 class CsFixerFactory
 {
